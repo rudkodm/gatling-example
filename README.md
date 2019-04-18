@@ -2,12 +2,12 @@
 
 Unix:
 ```sh
-export BASE_URL="" && ./gradlew gatlingRun
+export BASE_URL="http://google.com" && ./gradlew gatlingRun
 ```
 
 Windows:
-```sh
-export BASE_URL="" && gradlew.bat gatlingRun
+```bash
+set BASE_URL="http://google.com" && gradlew.bat gatlingRun
 ```
 
 ## Built With:
